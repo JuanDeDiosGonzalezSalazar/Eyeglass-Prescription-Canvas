@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#canvas {
+    box-shadow: 0 0 3px 0 black;
+    width: 100%;
+    height: 100%;
+}
